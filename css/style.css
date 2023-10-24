@@ -1,0 +1,61 @@
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+/* img {
+  padding: 20px 0;
+  width: 220px;
+  height: 258px;
+} */
+
+h1 {
+  padding: 25px 0;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.header-main {
+  background-color: black;
+}
+.content-slide {
+  background-color: #3e3e3f;
+  color: white;
+}
+
+form.d-flex {
+  padding-left: 25px;
+}
+
+li.nav-item {
+  padding-left: 25px;
+}
+
+ul.navbar-nav.me-auto {
+  padding-left: 200px;
+}
+a.nav-link:hover {
+  color: aqua;
+  transition: 0.5s;
+}
+button#Timkiem {
+  border-radius: 50%;
+}
+button#Timkiem:hover {
+  background: #fff;
+  color: aqua;
+}
+.xephang {
+  background-color: #3e3e3f;
+  color: white;
+}
+/* a.MRM {
+        color: white;
+      } */
+.Content {
+  background-color: #3e3e3f;
+}
+.img-thumbnail {
+  margin-top: 30px;
+  margin-left: 10px;
+}

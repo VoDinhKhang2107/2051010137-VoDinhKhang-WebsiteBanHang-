@@ -1,0 +1,39 @@
+.cardgiohang {
+  position: fixed;
+  top: 0;
+  left: 100%;
+  width: 500px;
+  background-color: #453e3b;
+  height: 100vh;
+  transition: 0.5s;
+}
+.cardgiohang h1 {
+  color: #e8bc0e;
+  font-weight: 100;
+  margin: 0;
+  padding: 0 20px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+.cardgiohang .checkOut {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cardgiohang .checkOut div {
+  background-color: #e8bc0e;
+  width: 10%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.cardgiohang .checkOut div:nth-child(2) {
+  background-color: #1c1f25;
+  color: #fff;
+}

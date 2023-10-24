@@ -1,0 +1,858 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200;1,300;1,400;1,500;1,600&family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background: #3e3e3f;
+}
+
+.top-navbar {
+  width: 100%;
+  height: 7vh;
+  background-color: #a9a9a926;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  justify-content: space-between;
+  color: #fff;
+}
+.social-icons i {
+  margin-left: 45px;
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.other-links {
+  margin-right: 33px;
+}
+.other-links i {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.other-links button {
+  background: none;
+  border: none;
+}
+.TenLogo h3 a {
+  font-weight: bold;
+  margin-left: 230px;
+  color: white;
+  text-decoration: none;
+}
+/* dangnhap */
+#btn-dangnhap {
+  width: 120px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 5vh;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#btn-dangnhap a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease;
+}
+
+#btn-dangnhap a:hover {
+  color: aqua;
+}
+
+/* dangky */
+#btn-dangky {
+  width: 120px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 5vh;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+#btn-dangky a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease;
+}
+
+#btn-dangky a:hover {
+  color: aqua;
+}
+
+#btn-dangky:hover {
+  color: white;
+}
+#btn-dangky {
+  width: 120px;
+  font-weight: bold;
+  border-radius: 5px;
+  height: 5vh;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+#btn-dangxuat a {
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease;
+}
+
+#btn-dangxuat a:hover {
+  color: aqua;
+}
+
+#btn-dangxuat:hover {
+  color: white;
+}
+@media screen and (max-width: 500px) {
+  .social-icons {
+    margin-left: 30px;
+  }
+  .social-icons i {
+    font-size: 15px;
+  }
+  .other-links i {
+    font-size: 15px;
+  }
+  .TenLogo h3 {
+    font-size: 20px;
+  }
+  #btn-dangnhap {
+    width: 60px;
+    height: 5vh;
+  }
+  #btn-dangky {
+    width: 60px;
+    height: 5vh;
+  }
+  #btn-dangxuat {
+    width: 60px;
+    height: 5vh;
+  }
+}
+@media screen and (max-width: 800px) {
+  .social-icons {
+    margin-left: 10px;
+  }
+  .social-icons i {
+    font-size: 10px;
+  }
+  .other-links {
+    margin-right: 10px;
+  }
+  .other-links i {
+    font-size: 10px;
+  }
+  .TenLogo h3 {
+    font-size: 10px;
+  }
+  #btn-dangnhap {
+    width: 50px;
+    height: 5vh;
+    font-size: 13px;
+  }
+  #btn-dangky {
+    width: 50px;
+    height: 5vh;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .social-icons {
+    margin-left: 10px;
+  }
+  .social-icons i {
+    font-size: 20px;
+  }
+  .other-links {
+    margin-right: 10px;
+  }
+  .other-links i {
+    font-size: 10px;
+  }
+  .TenLogo h3 {
+    font-size: 10px;
+  }
+  #btn-dangnhap {
+    width: 40px;
+    height: 5vh;
+    font-size: 10px;
+  }
+  #btn-dangky {
+    width: 40px;
+    height: 5vh;
+    font-size: 10px;
+  }
+}
+#navbarmenu {
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 2em;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+  background: black;
+}
+#navbarSupportedContent a {
+  color: #fff;
+  padding: 0 2rem;
+  border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover {
+  color: aqua;
+
+  border-bottom: 2px solid;
+}
+#navbarSupportedContent button {
+  margin-left: 10px;
+  width: 50px;
+  height: 40px;
+  border-radius: 50%;
+}
+/* banneriphone */
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+}
+
+.home img {
+  flex: 1 1 400px;
+}
+.home img img {
+  width: 100%;
+}
+.home .content {
+  flex: 1 1 400px;
+  margin-top: 30px;
+}
+.content h3 {
+  margin-left: 70px;
+  font-size: 50px;
+  text-shadow: 1px 1px 1px black;
+  color: white;
+  font-weight: bold;
+}
+.content h3 span {
+  font-size: 40px;
+}
+.content p {
+  margin-left: 70px;
+  color: rgb(234, 224, 224);
+}
+.content #Muangay {
+  margin-left: 70px;
+  width: 200px;
+  height: 38px;
+  border-radius: 10px;
+  border: 2px solid;
+  font-weight: bold;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.content #Muangay:hover {
+  background-color: aqua;
+  color: white;
+}
+.AnhSale img {
+  width: 100%;
+  height: 450px;
+}
+
+/* cards san pham */
+#Sanpham-cards {
+  margin-top: 100px;
+}
+
+#Sanpham-cards div.card {
+  background-color: #a9a9a92b;
+}
+#Sanpham-cards div.card:hover {
+  box-shadow: 20px 20px 100px -50px #fff;
+  transition: 0.3s;
+  /* box-shadow: 0 0 3px 3px rgb(150, 142, 142);
+  transition: 0.2s; */
+}
+#Sanpham-cards h1 {
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid white;
+}
+#Sanpham-cards .card h3 {
+  font-size: 20px;
+  color: black;
+}
+#Sanpham-cards .card p {
+  font-size: 12px;
+  margin-top: 5px;
+  color: black;
+}
+.star i {
+  margin-left: 5px;
+  font-size: 13px;
+}
+.checked {
+  color: yellow;
+}
+#Sanpham-cards .card h2 {
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+}
+#Sanpham-cards .card h2 span {
+  float: right;
+  color: black;
+  cursor: pointer;
+}
+#Sanpham-cards .card h2 span a#add_ {
+  float: right;
+  color: black;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  #Sanpham-cards .card h3 {
+    font-size: 15px;
+  }
+  #Sanpham-cards .card h2 {
+    font-size: 15px;
+  }
+}
+
+/* cards san pham */
+
+/* xếp theo */
+.tab_btns {
+  display: flex;
+  column-gap: 0.75rem;
+}
+.tab_btn {
+  background-color: #373737;
+  padding: 1rem 1.25rem 0.875rem;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.tab_btn.active-tab {
+  color: white;
+}
+
+/* xếp theo */
+
+/* sales cards */
+#other-cards {
+  margin-top: 30px;
+}
+#other-cards .card {
+  background-color: #a9a9a92b;
+}
+#other-cards .card h3 {
+  margin-top: 30px;
+  color: black;
+  margin-left: 10px;
+  letter-spacing: 3px;
+}
+#other-cards .card h5 {
+  margin-top: 15px;
+  font-weight: 100;
+  font-size: 18px;
+  color: black;
+  margin-left: 10px;
+  letter-spacing: 3px;
+  border-bottom: 2px solid black;
+  width: 250px;
+}
+#other-cards .card p {
+  margin-top: 10px;
+  font-weight: 100;
+  font-size: 18p5;
+  color: black;
+  margin-left: 10px;
+  letter-spacing: 3px;
+}
+#Muahang {
+  width: 130px;
+  height: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+  letter-spacing: 3px;
+  color: white;
+  background-color: black;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+  #other-cards .card h3 {
+    margin-top: 5px;
+    font-size: 20px;
+  }
+  #other-cards .card h5 {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  #other-cards .card p {
+    margin-top: 0px;
+  }
+  #Muahang {
+    margin-top: 0%;
+    width: 120px;
+    height: 30px;
+    font-size: 16px;
+  }
+}
+/* sales cards */
+
+/* baner giới thiệu */
+.banner {
+  margin-top: 60px;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  background-color: #a9a9a92b;
+  z-index: 0;
+}
+.banner img {
+  flex: 1 1 300px;
+  border-radius: 4px;
+}
+.banner .img img {
+  margin: 20px;
+  width: 700px;
+}
+.banner .content_banner {
+  flex: 1 1 400px;
+  margin-top: 20px;
+}
+.banner .content_banner h1 {
+  color: rgb(67 0 86);
+  font-weight: bold;
+  margin-left: 23px;
+  font-size: 55px;
+  text-shadow: -1px 1px 1px black;
+}
+.banner .content_banner h1 span {
+  color: rgb(67 0 86);
+  text-shadow: 1px 1px 1px black;
+}
+#span2 {
+  color: #ffc800;
+}
+.banner .content_banner p {
+  margin-left: 23px;
+}
+.btn {
+  margin-left: 13px;
+}
+.btn button {
+  width: 150px;
+  height: 32px;
+  letter-spacing: 3px;
+  background-color: rgb(67 0 86);
+  color: #ffc800;
+  border-radius: 5px;
+  border: none;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+.btn button:hover {
+  background-color: #ffc800;
+  color: rgb(67 0 86);
+  border: none;
+}
+@media screen and (max-width: 1200px) {
+  .banner {
+    height: 90vh;
+  }
+}
+@media screen and (max-width: 799px) {
+  .banner {
+    height: 140vh;
+  }
+}
+@media screen and (max-width: 550px) {
+  .banner {
+    height: 110vh;
+  }
+}
+@media screen and (max-width: 420px) {
+  .banner .content_banner h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .banner .content_banner h1 {
+    font-size: 36px;
+  }
+}
+/* baner giới thiệu */
+
+/* destop cards */
+#Mua {
+  margin-top: 50px;
+}
+#Mua .card {
+  box-shadow: rgba(04, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-color: #a9a9a92b;
+}
+
+#Mua .card h3 {
+  margin-top: IOpx;
+  color: white;
+  text-shadow: 0px 1px 1px black;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+#Mua .card p {
+  margin-top: IOpx;
+  color: white;
+  text-shadow: 0px 1px 1px black;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+/* destop cards */
+
+/* chương trình khuyến mãi */
+#CTKM {
+  margin-top: 100px;
+  color: #fff;
+}
+#CTKM i {
+  font-size: 32px;
+  color: black;
+}
+/* chương trình khuyến mãi */
+
+/* tư vẫn hỗ trợ */
+#tuvan {
+  margin-top: 100px;
+  color: white;
+}
+#tuvan h3 {
+  font-size: 25px;
+  letter-spacing: 3px;
+}
+.input {
+  margin-top: 30px;
+}
+.input input {
+  width: 350px;
+  height: 36px;
+  letter-spacing: 2px;
+  border-radius: 3px;
+  border: 1px solid black;
+  padding-left: 5px;
+}
+#Gui_email {
+  width: 100px;
+  height: 36px;
+  border-radius: 3px;
+  background-color: #ffc800;
+  color: white;
+  letter-spacing: 3px;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px black;
+}
+@media screen and(max-width:465px) {
+  .input input {
+    width: 280px;
+  }
+  #Gui_email {
+    margin-top: 10px;
+  }
+}
+@media screen and(max-width:250px) {
+  .input input {
+    width: 150px;
+  }
+  #Gui_email {
+    width: 150px;
+  }
+}
+/* tư vẫn hỗ trợ */
+
+/* footer */
+#footer {
+  padding: 0 0 30px 0px;
+  color: white;
+  font-size: 14px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+#footer .footer-top {
+  padding: 60px 0 30px 0;
+  background-color: black;
+  color: white;
+}
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+#footer .footer-top .footer-contact h3 {
+  color: #ffc800;
+  font-weight: bold;
+}
+#footer .footer-top .footer-contact h4 {
+  font-size: 22px;
+  margin: 0 0 30px 0;
+  padding: 2px 2px 0;
+  line-height: 1;
+  font-weight: 700;
+}
+#footer .footer-top .footer-contact p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  color: white;
+}
+#footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 12px;
+}
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+#footer .footer-top .footer-links h4 {
+  color: #ffc800;
+}
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+#footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+#footer .footer-top .footer-links ul li a {
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  line-height: 1;
+  font-weight: bold;
+  transition: 0.5s ease;
+}
+#footer .footer-top .footer-links ul li a:hover {
+  color: #ffc800;
+}
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  text-decoration: none;
+  background-color: #373737;
+  color: white;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  transition: 0.5s ease;
+}
+#footer .footer-top .social-links a:hover {
+  background-color: #ffc800;
+  color: white;
+}
+/* footer */
+
+html {
+  scroll-behavior: smooth;
+}
+.Muitenlen {
+  background-color: rgb(108, 103, 103);
+  color: white;
+  border-radius: 50%;
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  bottom: 50px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* dangnhap */
+#dangnhap {
+  width: 65%;
+  height: 70vh;
+  background-color: black;
+  margin-top: 35px;
+  border-radius: 10px;
+  box-shadow: rgba(17 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+#slide1 h3 {
+  color: #ffc800;
+  font-weight: bold;
+  margin-top: 20px;
+}
+#slide2 {
+  background-color: white;
+  height: 70vh;
+  border-radius: 10px;
+}
+#slide2 h3 {
+  margin-top: 20px;
+  color: #ffc800;
+  font-weight: bold;
+  text-shadow: 0px 1px 1px black;
+}
+.input2 input {
+  width: auto;
+  border: none;
+  display: block;
+  margin: auto;
+  margin-top: 40px;
+  border-bottom: 2px solid #ffc800;
+}
+.input2 input::placeholder {
+  font-weight: bold;
+}
+
+#slide2 p {
+  margin-top: 10px;
+  padding-top: 10px;
+}
+@media screen and(max-width:991px) {
+  .input input {
+    width: 250px;
+  }
+}
+
+@media screen and(max-width:765px) {
+  .input input {
+    width: 260px;
+  }
+
+  #slide2 {
+    height: 60vh;
+  }
+}
+/* dangnhap */
+
+/* giohang */
+#giohang {
+  margin: 80px auto;
+  color: black;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.anhsanpham {
+  display: flex;
+  flex-wrap: wrap;
+  color: #fff;
+}
+th {
+  text-align: left;
+  padding: 5px;
+  color: #fff;
+  background: #5a5757;
+  font-weight: normal;
+}
+td {
+  padding: 10px 5px;
+}
+td input {
+  width: 40px;
+  height: 30px;
+  padding: 5px;
+}
+td a {
+  font-size: 12px;
+  color: #b6af97;
+}
+td img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.thanhtien {
+  display: flex;
+  justify-content: flex-end;
+}
+.thanhtien table {
+  border-top: 3px solid black;
+  width: 100%;
+  max-width: 350px;
+}
+td:last-child {
+  text-align: right;
+}
+th:last-child {
+  text-align: right;
+}
+@media only screen and (max-width: 1000px) {
+  .thanhtien p {
+    display: none;
+  }
+  .thanhtien table {
+    max-width: px;
+  }
+}
+
+/* giohang */
+
+/* chitietsanpham */
+
+#chitietsanpham {
+  margin-top: 100px;
+  padding-top: 50px;
+  font-weight: bold;
+}
+#chitietsanpham p {
+  font-size: 20px;
+  color: black;
+}
+.col-md-7 h2 {
+  color: white;
+  font-weight: bold;
+}
+div.stars i {
+  padding-top: 20px;
+}
+.giatien {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+  padding-top: 20px;
+}
+#input_chitietdonhang {
+  border: 1px solid #ccc;
+  font-weight: bold;
+  height: 33px;
+  text-align: center;
+  width: 30px;
+}
+.themgiohang {
+  background: rgb(251, 0, 0);
+  color: #ffffff;
+  font-size: 20px;
+  margin-left: 20px;
+}
+#chitietsanpham label {
+  color: black;
+  font-size: 20px;
+}
+/* chitietsanpham */

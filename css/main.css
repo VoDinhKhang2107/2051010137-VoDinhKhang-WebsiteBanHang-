@@ -1,0 +1,17 @@
+/* Customize styles here */
+
+header.jumbotron {
+  background-image: url("header-bg.jpg");
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 150px 0;
+}
+
+section {
+  margin: 50px 0;
+}
+
+footer {
+  background: #f8f9fa;
+}

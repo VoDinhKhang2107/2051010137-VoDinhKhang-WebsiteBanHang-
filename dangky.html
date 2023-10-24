@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KUYN_APPLE</title>
+    <link rel="shortcut icon" type="Images" href="Images/KUYN_APPLE.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/stylehome.css" />
+  </head>
+  <body>
+    <!-- navbartop -->
+
+    <div class="top-navbar">
+      <div class="social-icons">
+        <div class="icon">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-instagram"></i>
+        </div>
+      </div>
+      <div class="TenLogo">
+        <h3><a href="Trangchu.html">KUYN APPLE</a></h3>
+      </div>
+      <div class="other-links">
+        <button id="btn-dangnhap">
+          <a href="dangnhap.html">Đăng nhập</a>
+        </button>
+        <button id="btn-dangky">
+          <a href="dangky.html">Đăng ký</a>
+        </button>
+
+        <i class="fa-solid fa-user"></i>
+        <a href="giohang.html"
+          ><i class="fa-solid fa-cart-shopping"></i
+          ><span
+            class="badge bg-success mt-0 align-self-start"
+            id="cart-item count"
+            >0</span
+          >
+        </a>
+      </div>
+    </div>
+
+    <!-- headernavmenu -->
+    <div class="headermenu">
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navbarmenu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Trangchu.html">
+            <img src="Images/KUYN_APPLE.png" alt="Avatar Logo" style="width:
+            70px" class="rounded-circle me-auto bg-white mx-5 id="LoginShop" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" id="iPhone" href="#">iPhone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Mac" href="#">Mac</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="iPad" href="#">iPad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Whatch" href="#">Whatch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="Airpods" href="#">Airpods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="phukien" href="#">Phụ kiện</a>
+              </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Tìm kiếm"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-info" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- ket thuc headernavmenu -->
+
+    <div class="container" id="dangnhap">
+      <div class="row">
+        <div class="col-md-5 py-3 py-md-0 m-auto" id="slide1">
+          <h3 class="text-center">Đăng Ký</h3>
+        </div>
+        <div class="col-md-7 py-3 py-md-0" id="slide2">
+          <h3 class="text-center">Đăng Ký Tài Khoản</h3>
+
+          <div class="input2 text-center">
+            <input type="name" placeholder="Họ và Tên" />
+            <input
+              type="name"
+              class="input-signup-username"
+              placeholder="Tên đăng Nhập"
+            />
+            <input type="text" placeholder="Số điện thoại" />
+            <input type="email" placeholder="Email" />
+            <input
+              type="password"
+              class="input-signup-password"
+              placeholder="Mật khẩu"
+            />
+          </div>
+          <p class="text-center signup__signInButton">
+            <a href="" class="btn btn-outline-warning">Đăng Ký</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- tư vấn -->
+    <div class="container text-center" id="tuvan">
+      <h3>Tư vấn hỗ trợ</h3>
+      <div class="input text-center">
+        <input type="text" placeholder="Nhập email của bạn" name="" />
+        <button id="Gui_email">Gửi</button>
+      </div>
+    </div>
+    <!-- tư vấn -->
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>KUYN APPLE</h3>
+              <p>
+                <i class="fa-solid fa-location-dot"></i> Số 8, Lô B4, Phường Tân
+                Thới Nhóm C, Quận 7 <br />
+                <i class="fa-solid fa-phone"></i>
+                Điện thoại: +84905636363<br />
+                <i class="fa-solid fa-envelope"></i>
+                Email: 2051010137khang@ou.edu.vn
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>HỆ THỐNG CỬA HÀNG</h4>
+              <ul>
+                <li><a href="/noi-quy-cua-hang"> Nội quy cửa hàng </a></li>
+                <li><a href="/chat-luong-phuc-vu"> Chất lượng phục vụ </a></li>
+                <li>
+                  <a href="/bao-hanh-doi-tra">
+                    Chính sách bảo hành &amp; đổi trả
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+              <ul>
+                <li>
+                  <a href="/dieu-kien-giao-dich"> Điều kiện giao dịch chung </a>
+                </li>
+                <li>
+                  <a href="/huong-dan-mua-hang"> Hướng dẫn mua hàng online </a>
+                </li>
+                <li><a href="/giao-hang"> Chính sách giao hàng </a></li>
+                <li><a href="/thanh-toan"> Hướng dẫn thanh toán </a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>FOLLOW US ON SOCIAL MEDIA</h4>
+              <div class="social-links mt-3">
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="container py-4">
+            <div class="copyright">
+              © Copyright 2023 - Designed by Đình Khang
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <a href="#" class="Muitenlen"> <i class="fa-solid fa-arrow-up"></i></a>
+  </body>
+  <script src="js/signup.js"></script>
+</html>

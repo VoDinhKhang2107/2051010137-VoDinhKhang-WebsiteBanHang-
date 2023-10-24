@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "image": "apple-watch-s8-ultra-cao-su-vang.webp",
+      "danhmuc": "Watch",
+      "name": "Apple watch vang",
+      "price": "12000000",
+      "id": 1
+    },
+    {
+      "image": "bluetooth-jbl-go-3-xanh-hong.webp",
+      "danhmuc": "Airpods",
+      "name": "loa",
+      "price": "12313123",
+      "id": 2
+    },
+    {
+      "image": "iphone-14-pro-gold-webp.webp",
+      "danhmuc": "iPhone",
+      "name": "iPhone 14",
+      "price": "123123123",
+      "id": 3
+    },
+    {
+      "image": "iPad-gen-10-sliver.webp",
+      "danhmuc": "iPad",
+      "name": "iPad gen 10",
+      "price": "212312312",
+      "id": 4
+    },
+    {
+      "image": "mac-air-13-m2-vang.webp",
+      "danhmuc": "Macbook",
+      "name": "Macbook air 13",
+      "price": "123123123",
+      "id": 5
+    },
+    {
+      "image": "iPad-gen-10-sliver.webp",
+      "danhmuc": "iPad",
+      "name": "iPad",
+      "price": "13123123123",
+      "id": 6
+    },
+    {
+      "image": "apple-watch-s8-ultra-cao-su-vang.webp",
+      "danhmuc": "Watch",
+      "name": "apple watch s8 ultral",
+      "price": "10000000",
+      "id": 7
+    },
+    {
+      "image": "ipad-air-5-wifi-startlight-label.webp",
+      "danhmuc": "iPad",
+      "name": "ipad",
+      "price": "12312312312",
+      "id": 8
+    },
+    {
+      "image": "airpods-pro-2.webp",
+      "danhmuc": "Airpods",
+      "name": "airrpod",
+      "price": "2131232",
+      "id": 9
+    },
+    {
+      "image": "airpods-3-tkm.webp",
+      "danhmuc": "Airpods",
+      "name": "aipor",
+      "price": "1213123",
+      "id": 10
+    },
+    {
+      "image": "apple-watch-s8-ultra-cao-su-vang.webp",
+      "danhmuc": "Watch",
+      "name": "Ni",
+      "price": "2113123",
+      "id": 11
+    }
+  ]
+}

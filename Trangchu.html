@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KUYN_APPLE</title>
+    <link rel="shortcut icon" type="Images" href="Images/KUYN_APPLE.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="css/stylehome.css" />
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" onload="indexLoadPage()" >
+    <!-- navbartop -->
+
+    <div class="top-navbar  ">
+      <div class="social-icons">
+        <div class="icon">
+          <a href="https://www.facebook.com/"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/">
+            <i class="fa-brands fa-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
+      <div class="TenLogo">
+        <h3><a href="Trangchu.html">KUYN APPLE</a></h3>
+      </div>
+      <di class="other-links">
+        <button id="btn-dangnhap">
+          <a href="dangnhap.html">Đăng nhập</a>
+        </button>
+        <button id="btn-dangky">
+          <a href="dangky.html">Đăng ký</a>
+        </button>
+
+        <i class="fa-solid fa-user"></i>
+        
+        
+        <div class="d-inline shopping"><a  href="giohang.html" class="btn btn-light " >Giỏ hàng: <span class="badge bg-success mt-0 align-self-start " id="total" >0</span>
+        </a></div>
+        
+          
+      </div>
+      
+    </div>
+   
+    <!-- headernavmenu -->
+    <div class="headermenu" >
+      <nav class="navbar navbar-expand-lg navbar-dark" id="navbarmenu">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="Trangchu.html">
+            <img
+              src="Images/KUYN_APPLE.png"
+              alt="Avatar Logo"
+              style="width: 70px"
+              class="rounded-circle me-auto bg-white mx-5"
+              id="LoginShop"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-expanded="false"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#iPhone">iPhone</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#iPhone">iPhone</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Mac">Mac</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#iPad">iPad</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Watch">Watch</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#AirPods">AirPods</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#phukien">Phụ kiện</a>
+              </li>
+            </ul>
+
+            <!-- <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                id="inp"
+                placeholder="Tìm kiếm"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-info" id="search" type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- ket thuc headernavmenu -->
+  
+    <!-- headerslides -->
+    <div class="slideheader">
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            class=""
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Images/slide1.webp" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="Images/slide2.webp" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- end headerslides -->
+
+    <!-- Card Sanpham -->
+    <div class="container" id="Sanpham-cards">
+      <h1 class="text-center"><i class="fa-brands fa-apple"></i>APPLE</h1>
+     
+    <div class="Timkiem" >
+      <form class="w-25 d-flex " role="search">
+        <input
+          class="form-control me-2 justify-content-end"
+          type="search"
+          id="search-item"
+          placeholder="Tìm kiếm"
+          aria-label="Search"
+          onkeyup="search()"
+        />
+        <button class="btn btn-outline-info" onclick="renderProduct()" type="submit" >
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </form>
+
+    </div>
+          
+      
+      <div class="container">
+          <div class="row" id="products">
+          </div>
+      </div>
+   
+     
+       
+    <!-- Card Sanpham -->
+
+    <!-- sale cards -->
+    <div class="container" id="other-cards">
+      <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/mac-pro-13-m2-xam.webp" alt="" />
+            <div class="card-img-overlay">
+              <h3>Best MacBook</h3>
+              <h5>Sản phẩm mới nhất</h5>
+              <p>Giảm giá đến 15%</p>
+              <button id="Muahang">Mua ngay</button>
+            </div>
+          </div>
+        </div>
+        <!-- sale 1 -->
+
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/airpods-max-select-hong.webp" alt="" />
+            <div class="card-img-overlay">
+              <h3>Best Airpods</h3>
+              <h5>Sản phẩm mới nhất</h5>
+              <p>Giảm giá đến 15%</p>
+              <button id="Muahang">Mua ngay</button>
+            </div>
+          </div>
+        </div>
+        <!-- sale 2 -->
+      </div>
+    </div>
+    <!-- sale cards -->
+
+    <!-- banner -->
+    <section class="banner">
+      <div class="content_banner">
+        <h1>
+          <span>iPhone 15 Pro và iPhone 15 Pro Max</span>
+          <br />
+          Giảm giá đến <span id="span2">20%</span>
+        </h1>
+        <p>
+          iPhone 15 Pro và iPhone 15 Pro Max sở hữu thiết kế Titan mỏng nhẹ
+          <br />
+          và mạnh mẽ với nhiều điểm mới: cạnh viền mới, Nút Tác Vụ mới, nâng cấp
+          camera và chip A17 Pro.
+        </p>
+        <div class="btn">
+          <button>Mua ngay</button>
+        </div>
+      </div>
+      <div class="img">
+        <img src="Images/banner iphone 15 vang.png" alt="" />
+      </div>
+    </section>
+    <!-- het banner -->
+
+    <!-- Card iphone 15 -->
+    <div class="container" id="Sanpham-cards">
+      <h1 class="text-center py-5" id="iPhone">
+        <i class="fa-brands fa-apple"></i>iPhone
+      </h1>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/iphone-15-pro-gray.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">iPhone 15 Pro 256GB</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 1 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/iphone-15-plus-blue.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">iPhone 15 Plus 128GB</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 2 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/iphone-15-plus-green.webp"  alt="" />
+            <div class="card-body">
+              <h3 class="text-center">iPhone 15 Plus 512GB</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 3 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/iphone-15-pro-black.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">iPhone 15 Pro 1TB</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 4 -->
+      </div>
+      <!-- het row san pham 1 -->
+
+      <!-- row san pham Watch -->
+      <h1 class="text-center py-5" id="Watch">
+        <i class="fa-brands fa-apple"></i>WATCH
+      </h1>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="Images/apple-watch-se-2022-44mm-vien-nhom-den-xanh.webp"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="text-center">
+                Apple Watch SE 20222 GPS 44<small>mm</small>
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 1 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="Images/apple-watch-se-2022-gps-40mm-trang-kem.webp"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="text-center">
+                Apple Watch SE 20222 GPS 40<small>mm</small>
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 2 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/apple-watch-s8-41mm-do.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">
+                Apple Watch Series 8 GPS 41<small>mm</small>
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 3 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/apple-watch-s8-ultra-cao-su-vang.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">
+                Apple Watch Ultra GPS + Cellular 49<small>mm</small>
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 4 -->
+      </div>
+      <!-- row san pham Watch -->
+
+      <!-- row Mac -->
+      <h1 class="text-center py-5" id="Mac">
+        <i class="fa-brands fa-apple"></i>MacBock
+      </h1>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/mac-air-13-m1-xam.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">
+                MacBook Air 13 inch M1 2020 8CPU/8GB/256GB/7GPU
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 1 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/mac-air-13-m2-vang.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">
+                MacBook Air 13 inch M2 2022 8CPU/8GB/256GB/8GPU
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 2 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/mac-pro-13-m2-bac.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">
+                MacBook Pro 13 inch M2 2022 8CPU/8GB/256GB/10GPU
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ket thuc card 3 -->
+
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/mac-air-15-m2-xam.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">
+                MacBook Air 15 inch M2 2023 8CPU/8GB/256GB/10GPU
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 4 -->
+      </div>
+      <!-- ket thuc row iMac -->
+
+      <!-- card ipad -->
+
+      <h1 class="text-center py-5" id="iPad">
+        <i class="fa-brands fa-apple"></i>iPad
+      </h1>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/ipad-gen-9-silver-label.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">iPad 9 WiFi 64GB</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 1 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/iPad-gen-10-sliver.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">iPad 10 WiFi 64GB</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 2 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/iPad-Pro-M2-11-sliver-thumb-label.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">iPad Pro M2 128GB</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 3 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/ipad-air-5-wifi-startlight-label.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">iPad Air 5 WiFi 64GB</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 4 -->
+      </div>
+      <!--het card ipad -->
+
+      <!-- card airpod -->
+      <h1 class="text-center py-5" id="phukien">
+        <i class="fa-brands fa-apple"></i>Phụ Kiện
+      </h1>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="Images/adapter-sac-type-c-20w-cho-iphone-ipad-apple-mhje3-(6).webp"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="text-center">Adapter sạc Apple USB-C 20W</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 1 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="Images/op-lung-magsafe-iphone-14-pro-max-nhua-trong-apple-mpu73-thumb-650x650.webp"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="text-center">Ốp lưng cho iPhone 14 Pro Max</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 2 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img
+              src="Images/cap-type-c-lightning-1m-apple-mm0a3-trang-(4).webp"
+              alt=""
+            />
+            <div class="card-body">
+              <h3 class="text-center">
+                Cáp sạc USB-C-lightning 1 <small>m</small>
+              </h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 3 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/magic-keyboard-(1).webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">Magic Keyboard thế hệ mới</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 4 -->
+      </div>
+      <!-- het card airpod -->
+
+      <!-- phụ kiện -->
+      <h1 class="text-center py-5" id="AirPods">
+        <i class="fa-brands fa-apple"></i>AirPods
+      </h1>
+      <div class="row" style="margin-top: 30px">
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/airpods-pro-2.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">AirPods Pro (2nd Gen)</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <!-- <h2>
+                5.000.000đ
+                <span><li class="fa-solid fa-cart-shopping"></li></span>
+                <a href="ChitietSanpham.html"><span ><li class="fa-solid fa-eye"></li></span></a>  
+              </h2> -->
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+        
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 1 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/airpods-3-23.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">AirPods 3 sạc Lightning</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 2 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/tai-nghe-bluetooth-airpods-2-apple.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">AirPods 2 Hộp sạc thường</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 3 -->
+        <div class="col-md-3 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/airpods-3-tkm.webp" alt="" />
+            <div class="card-body">
+              <h3 class="text-center">AirPods 3 hộp sạc thường</h3>
+              <p class="text-center">Giá siêu rẻ</p>
+              <div class="star text-center">
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+                <i class="fa-solid fa-star checked"></i>
+              </div>
+              <div class="pt-3"> <h3 class='card-text d-inline float-start py-2'>5,000,000</h3>
+                <a href="ChitietSanpham.html" class='btn btn-outline-secondary float-end'><li class="fa-solid fa-eye"></li></a>
+                <a class='btn btn-outline-secondary float-end'><li class="fa-solid fa-cart-shopping"></li></a></div>
+            </div>
+          </div>
+        </div>
+        <!-- ket thuc card 4 -->
+      </div>
+      <!-- het card phu kien -->
+    </div>
+    <!-- het Card iphone 15 -->
+
+    <!-- other cards -->
+    <div class="container" id="Mua">
+      <div class="row">
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/IP_Desktop.webp" alt="" />
+            <div class="card-img-overlay">
+              <h3>iPhone Series</h3>
+              <p>Siêu sale tháng 10 giảm đến 50%</p>
+            </div>
+          </div>
+        </div>
+        <!-- iphone -->
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/Mac_Desktop.webp" alt="" />
+            <div class="card-img-overlay">
+              <h3>MacBook</h3>
+              <p>Siêu sale tháng 10 giảm đến 10%</p>
+            </div>
+          </div>
+        </div>
+        <!-- mac -->
+
+        <div class="col-md-4 py-3 py-md-0">
+          <div class="card">
+            <img src="Images/IPad_Desktop.webp" alt="" />
+            <div class="card-img-overlay">
+              <h3>iPad</h3>
+              <p>Siêu sale tháng 10 giảm đến 60%</p>
+            </div>
+          </div>
+        </div>
+        <!-- ipad -->
+      </div>
+    </div>
+    <!--  het other cards -->
+
+    <!-- chương trình khuyến mãi khi mua hàng tại store -->
+    <div class="container" id="CTKM">
+      <div class="row">
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-cart-shopping"></i>
+          <h3>Giảm 200.000đ</h3>
+          <p>Cho đơn hàng online</p>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-truck"></i>
+          <h3>Miễn phí ship toàn quốc</h3>
+          <p>Cho khách hàng đặt hàng online</p>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-rotate-left"></i>
+          <h3>Đổi sản phẩm mới</h3>
+          <p>
+            Khi sản phẩm bị lỗi trong vòng 2 tuần đầu tiên kể từ ngày mua hàng
+          </p>
+        </div>
+
+        <div class="col-md-3 py-3 py-md-0">
+          <i class="fa-solid fa-fire"></i>
+          <h3>Chào mừng 20.10</h3>
+          <p>
+            Chị em phụ nữ khi tới mua hàng vào ngày này sẽ được giảm giá
+            100.000đ trên mỗi hóa đơn
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- chương trình khuyến mãi khi mua hàng tại store -->
+
+    <!-- tư vấn -->
+    <div class="container text-center" id="tuvan">
+      <h3>Tư vấn hỗ trợ</h3>
+      <div class="input text-center">
+        <input type="text" placeholder="Nhập email của bạn" name="" />
+        <button id="Gui_email">Gửi</button>
+      </div>
+    </div>
+    <!-- tư vấn -->
+
+    <!-- footer -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-3 col-md-6 footer-contact">
+              <h3>KUYN APPLE</h3>
+              <p>
+                <i class="fa-solid fa-location-dot"></i> Số 8, Lô B4, Phường Tân
+                Thới Nhóm C, Quận 7 <br />
+                <i class="fa-solid fa-phone"></i>
+                Điện thoại: +84905636363<br />
+                <i class="fa-solid fa-envelope"></i>
+                Email: 2051010137khang@ou.edu.vn
+              </p>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>HỆ THỐNG CỬA HÀNG</h4>
+              <ul>
+                <li><a href="/noi-quy-cua-hang"> Nội quy cửa hàng </a></li>
+                <li><a href="/chat-luong-phuc-vu"> Chất lượng phục vụ </a></li>
+                <li>
+                  <a href="/bao-hanh-doi-tra">
+                    Chính sách bảo hành &amp; đổi trả
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>HỖ TRỢ KHÁCH HÀNG</h4>
+              <ul>
+                <li>
+                  <a href="/dieu-kien-giao-dich"> Điều kiện giao dịch chung </a>
+                </li>
+                <li>
+                  <a href="/huong-dan-mua-hang"> Hướng dẫn mua hàng online </a>
+                </li>
+                <li><a href="/giao-hang"> Chính sách giao hàng </a></li>
+                <li><a href="/thanh-toan"> Hướng dẫn thanh toán </a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 footer-links">
+              <h4>FOLLOW US ON SOCIAL MEDIA</h4>
+              <div class="social-links mt-3">
+                <a href="#">
+                  <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+          <hr />
+          <div class="container py-4">
+            <div class="copyright">
+              © Copyright 2023 - Designed by Đình Khang
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <a href="#" class="Muitenlen"> <i class="fa-solid fa-arrow-up"></i></a>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+    <script src="js/Login.js"></script>
+    <script src="js/Themgiohang.js"></script>
+  </body>
+</html>
